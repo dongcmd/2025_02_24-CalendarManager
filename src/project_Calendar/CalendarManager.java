@@ -21,8 +21,8 @@ public class CalendarManager { // yyyy/MM/dd HH:mm:ss 2025/02/26 10:33:33
 	void run() throws IOException, ClassNotFoundException, ParseException {
 		
 		System.out.print("사용자 아이디를 입력하세요 >> ");
-//		id = sc.nextLine().trim();
-		System.out.println("dw");
+		id = sc.nextLine().trim();
+//		System.out.println("dw");
 		id = "dw";
 		Object obj = FileIO.load(id);
 		if(obj instanceof HashMap) {
